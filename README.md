@@ -1,5 +1,7 @@
 # MSeries
 
+English | [中文](https://github.com/mrmagic2020/mseries-mod-template/blob/main/README_zh.md)
+
 Interesting description.
 
 ## Installation
@@ -20,10 +22,8 @@ Interesting description.
 
 ## Contributing
 
-Ask questions by creating an issue.
-
-PRs accepted.
+Ask questions or submit bugs by creating an issue. PRs accepted.
 
 ## License
 
-CC0-1.0 © mrmagic202020
+GPL-3.0 © mrmagic202020
