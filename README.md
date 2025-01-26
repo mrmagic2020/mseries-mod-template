@@ -1,28 +1,22 @@
-# LeviLamina Mod Template
+# MSeries
 
-A LeviLamina mod template
+Interesting description.
 
-This mod is a template for developing LeviLamina mods.
+## Installation
 
-## Install
+### Using Lip
 
-Generate a new repository from this template.
+`lip install github.com/mrmagic2020/MSeries`
+
+### Manual Installation
+
+1. Download the latest release from the [releases page](https://github.com/mrmagic2020/MSeries/releases/latest).
+
+2. Unpack **MSeries-windows-x64.zip**.
+
+3. Move the **MSeries** folder to the **plugins** folder under your BDS root directory.
 
 ## Usage
-
-Before using this mod template, make sure that you have installed XMake and a Minecraft Bedrock Server with LeviLamina.
-
-1. Clone the new repository into a local folder.
-
-1. Change the mod name and the expected LeviLamina version in `xmake.lua`.
-
-1. Add your code.
-
-1. Run `xmake repo -u` in the root of the repository.
-
-1. Run `xmake` to build the mod.
-
-Now the build is complete at `bin/`.
 
 ## Contributing
 
@@ -32,4 +26,4 @@ PRs accepted.
 
 ## License
 
-CC0-1.0 © LiteLDev
+CC0-1.0 © mrmagic202020
