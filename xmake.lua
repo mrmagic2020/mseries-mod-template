@@ -35,6 +35,13 @@ target("MSeries") -- Change this to your mod name.
     set_symbols("debug")
     add_files("src/**.cpp")
     add_includedirs("src")
+    add_includedirs("D:/Programs/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include")
+    add_includedirs("D:/Programs/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/atlmfc/include")
+    add_includedirs("D:/Windows Kits/10/Include/10.0.22621.0/ucrt")
+    add_includedirs("D:/Windows Kits/10/Include/10.0.22621.0/shared")
+    add_includedirs("D:/Windows Kits/10/Include/10.0.22621.0/um")
+    add_includedirs("D:/Windows Kits/10/Include/10.0.22621.0/winrt")
+    add_includedirs("D:/Windows Kits/10/Include/10.0.22621.0/cppwinrt")
 
     after_build(function(target)
         import("scripts.after_build").copy_lang(target, target:name())
