@@ -1,6 +1,6 @@
 {
     "format_version": 2,
-    "tooth": "MSeries",
+    "tooth": "github.com/mrmagic2020/MSeries",
     "version": "0.0.0",
     "info": {
         "name": "MSeries",
